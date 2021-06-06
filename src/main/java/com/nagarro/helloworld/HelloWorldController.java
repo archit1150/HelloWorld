@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 	
-	@GetMapping("/getMessage")
+	@GetMapping("/")
 	public String getMessage() {
-		return "<b><i>Hello<i>, World!!</b>";
+		return "Azure web app is working!!!!!!!";
 	}
 }
