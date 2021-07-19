@@ -49,7 +49,7 @@ pipeline {
             
         
               sh label: '',script: 'docker build -t helloworld:latest .'
-              sh label: '',script: 'docker run -d -p 7100:7100 helloworld:latest '
+              sh label: '',script: 'docker run -d -p 7100:7100 helloworld:latest'
               
               
             }
